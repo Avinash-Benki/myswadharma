@@ -1,0 +1,152 @@
+/* ============================================================
+   MySwadharma Design System — Color & Type Tokens
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,650;9..144,700;9..144,750&family=Manrope:wght@400;500;600;700;800;900&display=swap');
+
+:root {
+
+  /* ── Primitive Color Palette ─────────────────────── */
+  --color-ivory:        #fffaf0;
+  --color-cream:        #fff4dc;
+  --color-sandal:       #f4dfb4;
+  --color-saffron:      #d97706;
+  --color-saffron-deep: #9a4f05;
+  --color-maroon:       #6e1f17;
+  --color-maroon-dark:  #3f100d;
+  --color-copper:       #a6632b;
+  --color-gold:         #d6a43b;
+  --color-gold-light:   #f0d78a;
+  --color-leaf:         #2f5d46;
+  --color-leaf-light:   #4a8a6a;
+  --color-ink:          #251813;
+  --color-muted:        #75645d;
+  --color-warm-mid:     #604942;
+  --color-white:        #ffffff;
+
+  /* ── Semantic Color Tokens ──────────────────────── */
+  --bg-base:            var(--color-ivory);
+  --bg-card:            rgba(255, 255, 255, 0.72);
+  --bg-card-solid:      #fffcf5;
+  --bg-overlay:         rgba(255, 250, 240, 0.88);
+  --bg-tint-saffron:    rgba(217, 133, 24, 0.10);
+  --bg-tint-maroon:     rgba(110, 31, 23, 0.08);
+  --bg-warm-chip:       #fff8e8;
+
+  --fg-primary:         var(--color-maroon-dark);
+  --fg-heading:         var(--color-maroon-dark);
+  --fg-body:            var(--color-ink);
+  --fg-secondary:       var(--color-muted);
+  --fg-warm:            var(--color-warm-mid);
+  --fg-accent:          var(--color-saffron);
+  --fg-accent-deep:     var(--color-saffron-deep);
+  --fg-maroon:          var(--color-maroon);
+
+  --border-line:        rgba(110, 31, 23, 0.16);
+  --border-subtle:      rgba(110, 31, 23, 0.10);
+  --border-accent:      rgba(217, 133, 24, 0.24);
+
+  /* ── Typography ─────────────────────────────────── */
+  --font-brand:         'Cinzel', Georgia, 'Times New Roman', serif;
+  --font-display:       'Fraunces', Georgia, 'Times New Roman', serif;
+  --font-body:          'Manrope', system-ui, -apple-system, sans-serif;
+
+  /* Type Scale */
+  --text-xs:   0.72rem;   /* 11.5px — labels, tags */
+  --text-sm:   0.82rem;   /* 13px  — captions */
+  --text-base: 0.92rem;   /* 14.7px — nav, small UI */
+  --text-md:   1rem;      /* 16px  — body copy */
+  --text-lg:   1.12rem;   /* 17.9px — lead text */
+  --text-xl:   1.28rem;   /* 20.5px — sub-headings */
+  --text-2xl:  1.55rem;   /* 24.8px — card headings */
+  --text-3xl:  2rem;      /* 32px  — section heads */
+  --text-4xl:  2.8rem;    /* 44.8px — hero title mobile */
+  --text-hero: clamp(2.35rem, 4.1vw, 4.15rem); /* responsive hero h1 */
+
+  /* Line Heights */
+  --leading-tight:  1.03;
+  --leading-snug:   1.22;
+  --leading-normal: 1.55;
+
+  /* Letter Spacing */
+  --tracking-tight:  -0.02em;
+  --tracking-normal: 0;
+  --tracking-wide:   0.04em;
+  --tracking-widest: 0.08em;
+
+  /* Font Weights */
+  --weight-regular:   400;
+  --weight-medium:    500;
+  --weight-semibold:  600;
+  --weight-bold:      700;
+  --weight-extrabold: 800;
+  --weight-black:     900;
+
+  /* ── Spacing ─────────────────────────────────────── */
+  --space-1:  4px;
+  --space-2:  8px;
+  --space-3:  12px;
+  --space-4:  16px;
+  --space-5:  20px;
+  --space-6:  24px;
+  --space-8:  32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-14: 56px;
+  --space-18: 72px;
+  --space-20: 80px;
+
+  /* ── Radii ───────────────────────────────────────── */
+  --radius-pill: 999px;
+  --radius-xl:   30px;
+  --radius-lg:   22px;
+  --radius-md:   16px;
+  --radius-sm:   10px;
+  --radius-xs:   6px;
+
+  /* ── Shadows ─────────────────────────────────────── */
+  --shadow-strong: 0 22px 55px rgba(63, 16, 13, 0.13);
+  --shadow-soft:   0 14px 35px rgba(63, 16, 13, 0.08);
+  --shadow-card:   0 16px 38px rgba(63, 16, 13, 0.07);
+  --shadow-btn:    0 12px 26px rgba(154, 79, 5, 0.18);
+
+  /* ── Layout ──────────────────────────────────────── */
+  --max-width: 1180px;
+}
+
+/* ── Semantic Element Styles ─────────────────────────── */
+
+h1, h2, h3, h4, .display {
+  font-family: var(--font-display);
+  font-weight: 650;
+  letter-spacing: var(--tracking-tight);
+  color: var(--fg-heading);
+  line-height: var(--leading-snug);
+}
+
+h1 { font-size: var(--text-hero); line-height: var(--leading-tight); }
+h2 { font-size: var(--text-3xl); }
+h3 { font-size: var(--text-2xl); }
+h4 { font-size: var(--text-xl); }
+
+.brand-text {
+  font-family: var(--font-brand);
+  letter-spacing: var(--tracking-wide);
+  text-transform: uppercase;
+}
+
+p, body {
+  font-family: var(--font-body);
+  font-size: var(--text-md);
+  line-height: var(--leading-normal);
+  color: var(--fg-body);
+}
+
+.eyebrow-label {
+  font-family: var(--font-body);
+  font-weight: var(--weight-extrabold);
+  font-size: var(--text-xs);
+  letter-spacing: var(--tracking-widest);
+  text-transform: uppercase;
+  color: var(--fg-accent-deep);
+}

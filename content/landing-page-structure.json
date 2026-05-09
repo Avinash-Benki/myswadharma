@@ -1,0 +1,113 @@
+{
+  "source": "design_systems/claude/MySwadharma_claude/code.html",
+  "deployedAs": "app/page.tsx + content/landing-body.html",
+  "description": "Ordered sections in the full landing page (hero + 11 content sections + footer). Anchor ids are used for in-page nav and CTAs.",
+  "sections": [
+    {
+      "order": 1,
+      "element": "nav.nav",
+      "id": null,
+      "summary": "Sticky header: brand (logo image + title), mobile menu, primary links, CTA to annual homa band."
+    },
+    {
+      "order": 2,
+      "element": "section.hero",
+      "id": null,
+      "summary": "Two-column hero: eyebrow, H1, Gita quote, lead, actions, trust chips; right column hero panel with medallion image and four service rows (Shastra/Dharma/Karma/Daana)."
+    },
+    {
+      "order": 3,
+      "element": "section.section.section-soft",
+      "id": null,
+      "kicker": "What is Swadharma?",
+      "h2": "Your own rightful way of living Dharma",
+      "summary": "Swadharma explainer / story-style content."
+    },
+    {
+      "order": 4,
+      "element": "section.section.section-soft",
+      "id": null,
+      "kicker": "For the next generation",
+      "h2": "Let children see Dharma being lived",
+      "summary": "Family / next-gen narrative block."
+    },
+    {
+      "order": 5,
+      "element": "section.section",
+      "id": null,
+      "kicker": "What would you like to explore?",
+      "h2": "Choose where you want to begin",
+      "summary": "Interest prompts / exploration cards grid."
+    },
+    {
+      "order": 6,
+      "element": "section.section.section-soft",
+      "id": "pillars",
+      "kicker": "The four aspects",
+      "h2": "Learn. Observe. Perform. Give.",
+      "summary": "Four pillar cards (Shastra, Dharma, Karma, Daana) with deep links."
+    },
+    {
+      "order": 7,
+      "element": "section.section.section-soft",
+      "id": "dharma-detail",
+      "kicker": "Dharma — Sacred Observance",
+      "h2": "Know the sacred rhythm of your day and year",
+      "summary": "Panchanga-style detail: wide CTA, feature list, secondary visual column."
+    },
+    {
+      "order": 8,
+      "element": "section.section",
+      "id": null,
+      "kicker": "Upcoming observances",
+      "h2": "Plan around sacred days",
+      "summary": "Event cards row (Ekadashi, Pradosha, Poornima/Amavasya, Festival)."
+    },
+    {
+      "order": 9,
+      "element": "section.section.section-soft",
+      "id": "annual-homa",
+      "kicker": "Act with clarity",
+      "h2": "Rituals, journeys and trusted services",
+      "summary": "Triad grid: 11 Homas, Teertha Yatra, Book/Consult/Shop with list items and pricing."
+    },
+    {
+      "order": 10,
+      "element": "section.section.section-soft",
+      "id": "shastra-detail",
+      "kicker": "Featured Shastra collections",
+      "h2": "Listen, read and learn from authentic sources",
+      "summary": "Three preview tabs/columns: Bhakti Music, Indic Knowledge, Pravachanas & Books with link stacks."
+    },
+    {
+      "order": 11,
+      "element": "section.section",
+      "id": "daana-detail",
+      "kicker": "Featured Daana opportunities",
+      "h2": "Give with Shraddha. Give with Trust.",
+      "summary": "Daana category cards (Temple, Goshala, Vidyadana, Annadana)."
+    },
+    {
+      "order": 12,
+      "element": "section.section",
+      "id": null,
+      "kicker": "Why MySwadharma?",
+      "h2": "Curated for trust, clarity and authentic practice",
+      "summary": "Curation grid: value propositions (verified practitioners, no fear selling, etc.)."
+    },
+    {
+      "order": 13,
+      "element": "section.section",
+      "id": "offerings",
+      "kicker": "Book, buy and offer",
+      "h2": "Move from interest to action",
+      "summary": "Commerce band: lead copy + four commerce cards (Homas, Book Pooja, Jyotishya, Store & Daana)."
+    },
+    {
+      "order": 14,
+      "element": "footer",
+      "id": null,
+      "summary": "Brand line, tagline, legal/support links."
+    }
+  ]
+}
