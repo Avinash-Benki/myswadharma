@@ -1,0 +1,38 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;700&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #fffaf0; padding: 20px; font-family: 'Manrope', sans-serif; }
+  .section { margin-bottom: 20px; }
+  .label { font-size: 9px; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; color: #75645d; margin-bottom: 10px; }
+  .radii-row { display: flex; gap: 12px; align-items: flex-end; }
+  .r-box { background: rgba(217,133,24,0.15); border: 1px solid rgba(217,133,24,0.3); }
+  .space-row { display: flex; gap: 8px; align-items: flex-end; }
+  .sp { background: #d97706; opacity: 0.7; height: 20px; }
+  .token { font-size: 9px; color: #3f100d; font-weight: 700; margin-top: 4px; text-align: center; }
+</style></head><body>
+  <div class="section">
+    <div class="label">Corner Radii</div>
+    <div class="radii-row">
+      <div><div class="r-box" style="width:44px;height:44px;border-radius:6px"></div><div class="token">xs·6</div></div>
+      <div><div class="r-box" style="width:52px;height:52px;border-radius:10px"></div><div class="token">sm·10</div></div>
+      <div><div class="r-box" style="width:60px;height:60px;border-radius:16px"></div><div class="token">md·16</div></div>
+      <div><div class="r-box" style="width:68px;height:68px;border-radius:22px"></div><div class="token">lg·22</div></div>
+      <div><div class="r-box" style="width:76px;height:76px;border-radius:30px"></div><div class="token">xl·30</div></div>
+      <div><div class="r-box" style="width:84px;height:38px;border-radius:999px"></div><div class="token">pill</div></div>
+    </div>
+  </div>
+  <div class="section">
+    <div class="label">Spacing Scale</div>
+    <div class="space-row">
+      <div><div class="sp" style="width:4px"></div><div class="token">4</div></div>
+      <div><div class="sp" style="width:8px"></div><div class="token">8</div></div>
+      <div><div class="sp" style="width:12px"></div><div class="token">12</div></div>
+      <div><div class="sp" style="width:16px"></div><div class="token">16</div></div>
+      <div><div class="sp" style="width:24px"></div><div class="token">24</div></div>
+      <div><div class="sp" style="width:32px"></div><div class="token">32</div></div>
+      <div><div class="sp" style="width:48px"></div><div class="token">48</div></div>
+      <div><div class="sp" style="width:72px"></div><div class="token">72</div></div>
+    </div>
+  </div>
+</body></html>

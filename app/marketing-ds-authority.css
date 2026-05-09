@@ -1,0 +1,84 @@
+/* After marketing CSS — enforce DS surfaces, CTAs, and type where extracts diverge */
+
+body {
+  background:
+    radial-gradient(circle at top left, var(--bg-tint-saffron), transparent 32%),
+    radial-gradient(circle at top right, var(--bg-tint-maroon), transparent 36%),
+    var(--bg-base) !important;
+  color: var(--fg-body);
+}
+
+body::before {
+  display: none !important;
+}
+
+#static-landing-root .nav {
+  background: var(--bg-overlay) !important;
+  border-bottom-color: var(--border-line) !important;
+}
+
+#static-landing-root .nav-cta,
+#static-landing-root .btn-primary {
+  background: var(--color-saffron) !important;
+  color: var(--color-ivory) !important;
+  border-color: transparent !important;
+  box-shadow: var(--shadow-btn) !important;
+}
+
+#static-landing-root .nav-cta:hover,
+#static-landing-root .btn-primary:hover {
+  background: var(--color-saffron-deep) !important;
+  filter: brightness(1.03);
+}
+
+#static-landing-root .btn-secondary {
+  background: var(--color-ivory) !important;
+  color: var(--color-saffron-deep) !important;
+  border: 1px solid var(--border-accent) !important;
+}
+
+#static-landing-root .eyebrow {
+  color: var(--fg-accent-deep) !important;
+  border-color: var(--border-accent) !important;
+}
+
+#static-landing-root .hero,
+#static-landing-root .section:not(.section-soft) {
+  background: transparent !important;
+}
+
+#static-landing-root .section-soft {
+  background: var(--color-cream) !important;
+  border-color: var(--border-subtle) !important;
+}
+
+#static-landing-root .brand-title {
+  font-family: var(--font-brand) !important;
+  letter-spacing: var(--tracking-wide) !important;
+  color: var(--fg-heading) !important;
+}
+
+#static-landing-root .brand-sub {
+  color: var(--fg-secondary) !important;
+  font-weight: var(--weight-extrabold);
+  font-size: var(--text-xs);
+  letter-spacing: var(--tracking-widest);
+  text-transform: uppercase;
+}
+
+#static-landing-root h1,
+#static-landing-root h2,
+#static-landing-root h3,
+#static-landing-root .serif {
+  font-family: var(--font-display) !important;
+  color: var(--fg-heading) !important;
+}
+
+#static-landing-root .gita-quote,
+#static-landing-root .hero-quote .serif {
+  font-family: var(--font-display) !important;
+}
+
+#static-landing-root .hero-lead {
+  color: var(--fg-warm) !important;
+}

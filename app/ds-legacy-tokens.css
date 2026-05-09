@@ -1,0 +1,20 @@
+/* Names expected by extracted marketing HTML/CSS → design system primitives */
+:root {
+  --ivory: var(--color-ivory);
+  --cream: var(--color-cream);
+  --sandal: var(--color-sandal);
+  --saffron: var(--color-saffron);
+  --deep-saffron: var(--color-saffron-deep);
+  --maroon: var(--color-maroon);
+  --maroon-dark: var(--color-maroon-dark);
+  --copper: var(--color-copper);
+  --gold: var(--color-gold);
+  --leaf: var(--color-leaf);
+  --ink: var(--color-ink);
+  --muted: var(--color-muted);
+  --white: var(--color-white);
+  --line: var(--border-line);
+  --max: var(--max-width);
+  --shadow: var(--shadow-strong);
+  --soft-shadow: var(--shadow-soft);
+}
