@@ -3,18 +3,25 @@
 import { Reveal } from "@/components/landing/Reveal";
 
 const HOMA_ITEMS = [
-  { n: 1, title: "Ganesha Chaturthi", detail: "Mahaganapathi Homa" },
+  { n: 1, title: "Bhadrakali Pooje", detail: "Shatru Samharaa" },
+  { n: 2, title: "Varaha Swamy Jayanthi", detail: "Bhuvaraha Homa" },
+  { n: 3, title: "Navaratri", detail: "Durga Homa" },
+  { n: 4, title: "Navaratri", detail: "Deepa Namaskara" },
+  { n: 5, title: "Navaratri", detail: "Chandika Homa" },
+  { n: 6, title: "Shani Jayanthi", detail: "Shani Shanthi Homa" },
   {
-    n: 2,
-    title: "Navaratri",
-    detail: "Durga Homa · Chandika Homa · Deepa Namaskara",
-  },
-  {
-    n: 3,
-    title: "Mahashivarathri",
+    n: 7,
+    title: "Shivarathri",
     detail: "Rudra Homa · Rudrabhisheka · Mrutyunjaya Homa",
   },
-  { n: 4, title: "Pitru Paksha", detail: "Tila Homa · Pavamana Homa" },
+  { n: 8, title: "Ganesha Chaturthi", detail: "Mahaganapathi Homa" },
+  { n: 9, title: "Hanuman Jayanthi", detail: "Vadavanala Shanthi Homa" },
+  { n: 10, title: "Pitru Paksha", detail: "Tila Homa · Pavamana Homa" },
+  {
+    n: 11,
+    title: "Bhadrakali Pooje",
+    detail: "Shatru Samhara Homa · Aghora Bali",
+  },
 ] as const;
 
 export function HomasFeatureSection() {
@@ -48,12 +55,8 @@ export function HomasFeatureSection() {
                 </div>
               ))}
             </div>
-            <p className="ld-homas-more">
-              Also includes Shani Jayanthi, Hanuman Jayanthi, Varaha Swamy
-              Jayanthi and Bhadrakali Pooje observances.
-            </p>
             <div className="ld-homas-price">
-              <strong>₹1,111</strong>
+              <strong>₹5,500</strong>
               <span>per person / year</span>
             </div>
             <div className="ld-homas-actions">
