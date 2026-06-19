@@ -1,8 +1,9 @@
-# Netlify runs the OpenNext adapter for Next.js automatically — no [[plugins]] needed.
-# https://docs.netlify.com/build/frameworks/framework-setup-guides/nextjs/overview/
+# Static export (`output: "export"` in next.config.mjs) → deploy the `out/` directory.
+# https://nextjs.org/docs/app/building-your-application/deploying/static-exports
 
 [build]
   command = "npm run build"
+  publish = "out"
 
 [build.environment]
   # Next.js 14.2.x is not reliable on Node 23+; Netlify should use an LTS 20.x release.

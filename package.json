@@ -4,6 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "dev:server": "sh scripts/dev-server.sh restart",
+    "dev:fresh": "sh scripts/clean-next-and-run.sh dev",
+    "build:fresh": "sh scripts/clean-next-and-run.sh build",
     "sync:landing": "node scripts/extract-landing.mjs",
     "build": "next build",
     "start": "next start",

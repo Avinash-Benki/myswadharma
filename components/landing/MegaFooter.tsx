@@ -21,6 +21,10 @@ const COLS = [
     title: "Karma",
     links: [
       { label: "11 Homas", href: "/karma#annual-homa" },
+      {
+        label: "Shani Jayanthi Sankalpa 2026",
+        href: "/shani-jayanthi-sankalpa-seva-2026",
+      },
       { label: "Book Pooja", href: "/karma#offerings" },
       { label: "Jyotishya", href: "/karma#offerings" },
       { label: "Puja Products", href: "/shop" },

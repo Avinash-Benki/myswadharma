@@ -24,6 +24,11 @@ const HOMA_ITEMS = [
   },
 ] as const;
 
+/** Annual Pooja Sankalpa registration (Google Form). */
+const ANNUAL_HOMA_SANKALPA_FORM_URL =
+  "https://docs.google.com/forms/d/15txVKdARzL-9JBjfN-LVaqsdmvYRpiD7cyZCgiuJjsY/viewform?edit_requested=true"  
+//"https://docs.google.com/forms/d/e/1FAIpQLSf0Rf0Vj6EBFVj9y6trPCuPCsYx-MkUWEPRsiIHfcPtmlipDQ/viewform?usp=publish-editor";
+
 export function HomasFeatureSection() {
   return (
     <section className="ld-section" id="annual-homa">
@@ -60,7 +65,12 @@ export function HomasFeatureSection() {
               <span>per person / year</span>
             </div>
             <div className="ld-homas-actions">
-              <a className="btn btn-primary" href="#">
+              <a
+                className="btn btn-primary"
+                href={ANNUAL_HOMA_SANKALPA_FORM_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Join 11 Homas →
               </a>
               <a className="btn btn-secondary" href="#">

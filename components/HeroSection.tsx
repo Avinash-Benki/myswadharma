@@ -49,7 +49,6 @@ export function HeroSection() {
             11 Homas in Your Name <span aria-hidden>→</span>
           </Link>
         </div>
-
       </div>
       <a href="#swadharma" className="hero-scroll-cue" aria-label="Scroll to next section">
         ↓ Begin the path
